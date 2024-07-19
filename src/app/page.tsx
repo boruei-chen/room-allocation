@@ -2,9 +2,9 @@
 import React from 'react';
 import RoomAllocation from '@/shared/components/RoomAllocation';
 import { ResultRoom } from '@/shared/components/RoomAllocation/RoomAllocation.types';
-import { Props } from './types';
+import { PageProps } from './types';
 
-const Page: React.FC<Props> = () => {
+const Page: React.FC<PageProps> = () => {
   const guest = { adult: 4, child: 2 };
   const rooms = [
     { roomPrice: 1000, adultPrice: 200, childPrice: 100, capacity: 4 },
